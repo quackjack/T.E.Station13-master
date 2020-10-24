@@ -16,13 +16,13 @@ Based and maintained from /tg/station.
 * **Coderbus Discord:** <https://discord.gg/Vh8TJp9>
 * ~~**IRC:** <irc://irc.rizon.net/coderbus>~~ (dead)  
 
-**Citadel Station Information**  
-* **Website:** <http://citadel-station.net>
+**T.E. Station Information**  
+* **Website:** <https://transcendentenemy.mistforums.com/>
 * **Code:** <https://github.com/Citadel-Station-13/Citadel-Station-13>
 * **Wiki:** <https://citadel-station.net/wiki/index.php?title=Main_Page>
-* **Forums:** <http://citadel-station.net/forum>
+* **Forums:** <https://transcendentenemy.mistforums.com/>
 * **Ban Appeals:** <http://citadel-station.net/forum/forumdisplay.php?fid=8>
-* **Discord:**  <https://discord.gg/E6SQuhz>
+* **Discord:**  <https://discord.gg/Bc2qfuD>
   
 ## DOWNLOADING
 
