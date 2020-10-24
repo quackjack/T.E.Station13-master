@@ -1,4 +1,4 @@
-## Citadel Station 13
+## T.E. Station 13
 Based and maintained from /tg/station.
 
 [![Build Status](https://api.travis-ci.org/Citadel-Station-13/Citadel-Station-13.png)](https://travis-ci.org/Citadel-Station-13/Citadel-Station-13) 
