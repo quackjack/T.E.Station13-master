@@ -389,8 +389,7 @@
 		/obj/item/storage/firstaid/regular=1,\
 		/obj/item/storage/box/flashbangs=1,\
 		/obj/item/flashlight=1,\
-		/obj/item/grenade/plastic/x4=1,
-		/obj/item/storage/belt/security/full=1)
+		/obj/item/grenade/plastic/x4=1)
 
 /datum/outfit/death_commando/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE, client/preference_source)
 	if(visualsOnly)

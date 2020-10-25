@@ -74,30 +74,30 @@
 
 /datum/config_entry/flag/allow_vote_mode	// allow votes to change mode
 
-/datum/config_entry/number/vote_delay	// minimum time between voting sessions (deciseconds, 30 minute default)
-	config_entry_value = 18000
+/datum/config_entry/number/vote_delay	// minimum time between voting sessions (deciseconds, 10 minute default)
+	config_entry_value = 6000
 	min_val = 0
 
-/datum/config_entry/number/vote_period  // length of voting period (deciseconds, default 2 minute)
-	config_entry_value = 1200
+/datum/config_entry/number/vote_period  // length of voting period (deciseconds, default 1 minute)
+	config_entry_value = 600
 	min_val = 0
 
-/// Length of time before the first autotransfer vote is called (deciseconds, default 2 hours(72000))
+/// Length of time before the first autotransfer vote is called (deciseconds, default 2 hours)
 /// Set to 0 to disable the subsystem altogether.
 /datum/config_entry/number/vote_autotransfer_initial
-	config_entry_value = 720000
+	config_entry_value = 72000
 	min_val = 0
 
-///length of time to wait before subsequent autotransfer votes (deciseconds, default 60 minutes( 36000))
+///length of time to wait before subsequent autotransfer votes (deciseconds, default 30 minutes)
 /datum/config_entry/number/vote_autotransfer_interval
-	config_entry_value = 360000
+	config_entry_value = 18000
 	min_val = 0
 
 /// maximum extensions until the round autoends.
 /// Set to 0 to force automatic crew transfer after the 'vote_autotransfer_initial' elapsed.
 /// Set to -1 to disable the maximum extensions cap.
 /datum/config_entry/number/vote_autotransfer_maximum
-	config_entry_value = 15
+	config_entry_value = 4
 	min_val = -1
 
 /datum/config_entry/flag/default_no_vote	// vote does not default to nochange/norestart

@@ -10,7 +10,7 @@
 	var/list/mob/occupants				//mob = bitflags of their control level.
 	var/max_occupants = 1
 	var/max_drivers = 1
-	var/movedelay = 3
+	var/movedelay = 2
 	var/lastmove = 0
 	var/key_type
 	var/obj/item/key/inserted_key

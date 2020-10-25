@@ -1,24 +1,21 @@
 //Command
 /datum/job/captain
-	alt_titles = list("Overseer", "Station Manager", "Commanding Officer")
+	alt_titles = list("Overseer", "Station Manager")
 
 /datum/job/hop
-	alt_titles = list("Crew Supervisor", "Lieutenant")
-
+	alt_titles = list("Crew Supervisor")
+	
 /datum/job/hos
 	alt_titles = list("Security Commander", "Chief of Security")
 
 /datum/job/rd
-	alt_titles = list("Research Supervisor", "Head of Research")
-
+	alt_titles = list("Research Supervisor")
+	
 /datum/job/cmo
-	alt_titles = list("Medical Director", "Medical Officer")
-
+	alt_titles = list("Medical Director")
+	
 /datum/job/qm
-	alt_titles = list("Supply Chief", "Supply Officer")
-
-/datum/job/cq
-	alt_titles = list("Head of Engineering", "Chief Maintenance Officer")
+	alt_titles = list("Supply Chief")
 
 //Engineering
 /datum/job/engineer
@@ -54,7 +51,7 @@
 
 /datum/job/clown
 	alt_titles = list("Jester", "Comedian")
-
+	
 /datum/job/mime
 	alt_titles = list("Performer")
 
@@ -64,7 +61,7 @@
 
 /datum/job/roboticist
 	alt_titles = list("Biomechanical Engineer", "Mechatronic Engineer")
-
+	
 /datum/job/geneticist
 	alt_titles = list("Biochemist")
 

@@ -408,7 +408,7 @@
 	construction_time = 150
 	category = list("IPC")
 
-datum/design/synth_groin
+/datum/design/synth_groin //Jessie Added this
 	name = "Synth groin"
 	id = "synth_groin"
 	build_type = MECHFAB

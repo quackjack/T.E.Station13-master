@@ -71,31 +71,31 @@
 	name = "ammo box (9mm)"
 	icon_state = "9mmbox"
 	ammo_type = /obj/item/ammo_casing/c9mm
-	max_ammo = 45
+	max_ammo = 30
 
 /obj/item/ammo_box/c10mm
 	name = "ammo box (10mm)"
 	icon_state = "10mmbox"
 	ammo_type = /obj/item/ammo_casing/c10mm
-	max_ammo = 30
+	max_ammo = 20
 
 /obj/item/ammo_box/c10mm/fire
 	name = "ammo box (10mm Incendiary)"
 	icon_state = "10mmbox"
 	ammo_type = /obj/item/ammo_casing/c10mm/fire
-	max_ammo = 25
+	max_ammo = 20
 
 /obj/item/ammo_box/c10mm/hp
 	name = "ammo box (10mm Hollow Point)"
 	icon_state = "10mmbox"
 	ammo_type = /obj/item/ammo_casing/c10mm/hp
-	max_ammo = 25
+	max_ammo = 20
 
 /obj/item/ammo_box/c10mm/ap
 	name = "ammo box (10mm Armour Piercing)"
 	icon_state = "10mmbox"
 	ammo_type = /obj/item/ammo_casing/c10mm/ap
-	max_ammo = 25
+	max_ammo = 20
 
 /obj/item/ammo_box/c10mm/soporific
 	name = "ammo box (10mm Soporific)"
@@ -106,7 +106,7 @@
 	name = "ammo box (.45)"
 	icon_state = "45box"
 	ammo_type = /obj/item/ammo_casing/c45
-	max_ammo = 25
+	max_ammo = 20
 
 /obj/item/ammo_box/a40mm
 	name = "ammo box (40mm grenades)"
@@ -134,7 +134,7 @@
 	icon = 'icons/obj/guns/toy.dmi'
 	icon_state = "foambox"
 	ammo_type = /obj/item/ammo_casing/caseless/foam_dart
-	max_ammo = 60
+	max_ammo = 40
 	custom_materials = list(/datum/material/iron = 500)
 
 /obj/item/ammo_box/foambox/mag
@@ -142,7 +142,7 @@
 	icon = 'icons/obj/guns/toy.dmi'
 	icon_state = "foambox"
 	ammo_type = /obj/item/ammo_casing/caseless/foam_dart/mag
-	max_ammo = 50
+	max_ammo = 42
 
 /obj/item/ammo_box/foambox/riot
 	icon_state = "foambox_riot"

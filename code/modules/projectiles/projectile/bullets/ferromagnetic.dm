@@ -1,6 +1,6 @@
 /obj/item/projectile/bullet/magnetic
 	icon_state = "magjectile"
-	damage = 30
+	damage = 20
 	armour_penetration = 20
 	light_range = 3
 	pixels_per_second = TILES_TO_PIXELS(16.667)
@@ -12,12 +12,12 @@
 	icon_state = "magjectile-nl" //nl stands for non-lethal
 	damage = 2
 	armour_penetration = 10
-	stamina = 30
+	stamina = 20
 	light_color = LIGHT_COLOR_BLUE
 	wound_bonus = CANT_WOUND
 
 /obj/item/projectile/bullet/magnetic/weak
-	damage = 25
+	damage = 15
 	armour_penetration = 10
 	light_range = 2
 	range = 25
@@ -28,7 +28,7 @@
 	stamina = 20
 
 /obj/item/projectile/bullet/magnetic/hyper
-	damage = 20
+	damage = 10
 	armour_penetration = 20
 	stamina = 10
 	movement_type = FLYING | UNSTOPPABLE
@@ -39,7 +39,7 @@
 
 /obj/item/projectile/bullet/incendiary/mag_inferno
 	icon_state = "magjectile-large"
-	damage = 20
+	damage = 10
 	armour_penetration = 20
 	movement_type = FLYING | UNSTOPPABLE
 	range = 20

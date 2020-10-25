@@ -22,7 +22,7 @@
 		hostedby = CONFIG_GET(string/hostedby)*/
 
 	s += " ("
-	s += "<a href=\"https://discord.gg/Bc2qfuD\">" //Change this to wherever you want the hub to link to. wzds change - links to the discord
+	s += "<a href=\"https://discord.gg/Bc2qfuD\">" //This is current T.E's discord, unless it changes, in which i can't do anything.
 	s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version. wzds change - modifies hub entry link
 	// s += "</a>|<a href=\"https://shadow-station.com\">"
 	// s += "Website"

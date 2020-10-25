@@ -5,8 +5,8 @@ Difficulty: Hard
 /mob/living/simple_animal/hostile/megafauna/wendigo
 	name = "wendigo"
 	desc = "A mythological man-eating legendary creature, you probably aren't going to survive this."
-	health = 1500
-	maxHealth = 1500
+	health = 2500
+	maxHealth = 2500
 	icon_state = "wendigo"
 	icon_living = "wendigo"
 	icon_dead = "wendigo_dead"

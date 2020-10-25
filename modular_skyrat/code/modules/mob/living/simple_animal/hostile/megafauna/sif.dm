@@ -46,8 +46,8 @@ Difficulty: Medium
 /mob/living/simple_animal/hostile/megafauna/sif
 	name = "Great Brown Wolf Sif"
 	desc = "Guardian of the abyss. Looks pretty pissed that you're here."
-	health = 1000
-	maxHealth = 1000
+	health = 2000
+	maxHealth = 2000
 	movement_type = GROUND
 	attack_verb_continuous = "slashes"
 	attack_verb_simple = "slash"
@@ -62,7 +62,7 @@ Difficulty: Medium
 	armour_penetration = 50
 	melee_damage_lower = 35
 	melee_damage_upper = 35
-	speed = 2
+	speed = 1.5
 	pixel_x = -32 //Hit box perfectly centered
 	pixel_y = -16
 	move_to_delay = 3

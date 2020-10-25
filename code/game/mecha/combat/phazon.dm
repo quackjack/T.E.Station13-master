@@ -5,9 +5,9 @@
 	step_in = 2
 	dir_in = 2 //Facing South.
 	step_energy_drain = 3
-	max_integrity = 400
+	max_integrity = 200
 	deflect_chance = 30
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 40, "energy" = 40, "bomb" = 80, "bio" = 0, "rad" = 0, "fire" = 100, "acid" = 100)
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 30, "energy" = 30, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 100, "acid" = 100)
 	max_temperature = 25000
 	infra_luminosity = 3
 	wreckage = /obj/structure/mecha_wreckage/phazon

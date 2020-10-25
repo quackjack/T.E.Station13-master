@@ -18,7 +18,7 @@
 	ranged_cooldown_time = 30
 	throw_message = "does nothing against the hard shell of"
 	vision_range = 2
-	speed = 4
+	speed = 3
 	maxHealth = 200
 	health = 200
 	harm_intent_damage = 5
