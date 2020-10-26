@@ -32,6 +32,7 @@
 	design_ids = list("bluespace_cell", "quadratic_capacitor")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 
+//Jessie Added this
 /datum/techweb_node/bluespace_power_reactor
 	id = "bluespace_power_reactor"
 	display_name = "Bluespace Power Reactor Technology"

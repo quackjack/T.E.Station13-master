@@ -24,8 +24,8 @@ Difficulty: Medium
 	name = "blood-drunk miner"
 	desc = "A miner destined to wander forever, engaged in an endless hunt."
 	threat = 15
-	health = 450
-	maxHealth = 450
+	health = 900
+	maxHealth = 900
 	icon_state = "miner"
 	icon_living = "miner"
 	icon = 'icons/mob/broadMobs.dmi'
@@ -33,8 +33,8 @@ Difficulty: Medium
 	light_color = "#E4C7C5"
 	movement_type = GROUND
 	speak_emote = list("roars")
-	speed = 2
-	move_to_delay = 3
+	speed = 1
+	move_to_delay = 2
 	projectiletype = /obj/item/projectile/kinetic/miner
 	projectilesound = 'sound/weapons/kenetic_accel.ogg'
 	ranged = 1

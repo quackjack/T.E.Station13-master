@@ -14,7 +14,7 @@
 	ranged = 1
 	vision_range = 4
 	aggro_vision_range = 7
-	speed = 4
+	speed = 3
 	maxHealth = 75
 	health = 75
 	harm_intent_damage = 5

@@ -16,21 +16,21 @@ obj/item/projectile/energy/plasmabolt
 
 
 /obj/item/projectile/energy/plasmabolt/light
-	damage = 40
+	damage = 30
 	icon_state = "plasma2"
 	irradiate = 10
 	stamina = 20
 	wound_bonus = 25
 
 /obj/item/projectile/energy/plasmabolt/rifle
-	damage = 60
+	damage = 50
 	icon_state = "plasma3"
 	irradiate = 35
 	stamina = 120
 	wound_bonus = 45
 
 /obj/item/projectile/energy/plasmabolt/MP40k
-	damage = 45
+	damage = 35
 	eyeblur = 4
 	irradiate = 25
 	stamina = 100

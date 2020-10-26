@@ -38,8 +38,8 @@ Difficulty: Normal
 	name = "hierophant"
 	desc = "A massive metal club that hangs in the air as though waiting. It'll make you dance to its beat."
 	threat = 30
-	health = 1500
-	maxHealth = 1500
+	health = 2500
+	maxHealth = 2500
 	attack_verb_continuous = "clubs"
 	attack_verb_simple = "club"
 	attack_sound = 'sound/weapons/sonic_jackhammer.ogg'
@@ -54,7 +54,7 @@ Difficulty: Normal
 	melee_damage_lower = 15
 	melee_damage_upper = 20
 	blood_volume = 0
-	speed = 2
+	speed = 1
 	move_to_delay = 11
 	ranged = 1
 	ranged_cooldown_time = 40
@@ -69,7 +69,7 @@ Difficulty: Normal
 
 	var/burst_range = 3 //range on burst aoe
 	var/beam_range = 5 //range on cross blast beams
-	var/chaser_speed = 3 //how fast chasers are currently
+	var/chaser_speed = 2 //how fast chasers are currently
 	var/chaser_cooldown = 50 //base cooldown/cooldown var between spawning chasers
 	var/major_attack_cooldown = 40 //base cooldown for major attacks
 	var/arena_cooldown = 200 //base cooldown/cooldown var for creating an arena

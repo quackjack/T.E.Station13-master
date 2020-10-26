@@ -22,7 +22,7 @@ Contains:
 	desc = "An advanced tactical space helmet."
 	icon_state = "deathsquad"
 	item_state = "deathsquad"
-	armor = list("melee" = 90, "bullet" = 90, "laser" = 85, "energy" = 90, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100, "wound" = 60)
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 50, "energy" = 50, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100, "wound" = 45)
 	strip_delay = 130
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 	resistance_flags = FIRE_PROOF | ACID_PROOF
@@ -37,7 +37,7 @@ Contains:
 	icon_state = "deathsquad"
 	item_state = "swat_suit"
 	allowed = list(/obj/item/gun, /obj/item/ammo_box, /obj/item/ammo_casing, /obj/item/melee/baton, /obj/item/restraints/handcuffs, /obj/item/tank/internals, /obj/item/kitchen/knife/combat)
-	armor = list("melee" = 90, "bullet" = 90, "laser" = 85, "energy" = 90, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100, "wound" = 60)
+	armor = list("melee" = 80, "bullet" = 80, "laser" = 50, "energy" = 50, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100, "wound" = 45)
 	strip_delay = 130
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 	resistance_flags = FIRE_PROOF | ACID_PROOF
@@ -176,7 +176,7 @@ Contains:
 	icon_state = "hardsuit0-ert_commander"
 	item_state = "hardsuit0-ert_commander"
 	hardsuit_type = "ert_commander"
-	armor = list("melee" = 70, "bullet" = 70, "laser" = 70, "energy" = 70, "bomb" = 70, "bio" = 100, "rad" = 100, "fire" = 80, "acid" = 80, "wound" = 25)
+	armor = list("melee" = 65, "bullet" = 50, "laser" = 50, "energy" = 50, "bomb" = 50, "bio" = 100, "rad" = 100, "fire" = 80, "acid" = 80, "wound" = 25)
 	strip_delay = 130
 	brightness_on = 7
 	resistance_flags = ACID_PROOF
@@ -192,7 +192,7 @@ Contains:
 	item_state = "ert_command"
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/ert
 	allowed = list(/obj/item/gun, /obj/item/ammo_box, /obj/item/ammo_casing, /obj/item/melee/baton, /obj/item/restraints/handcuffs, /obj/item/tank/internals)
-	armor = list("melee" = 70, "bullet" = 70, "laser" = 70, "energy" = 70, "bomb" = 70, "bio" = 100, "rad" = 100, "fire" = 80, "acid" = 80, "wound" = 25)
+	armor = list("melee" = 65, "bullet" = 50, "laser" = 50, "energy" = 50, "bomb" = 50, "bio" = 100, "rad" = 100, "fire" = 80, "acid" = 80, "wound" = 25)
 	slowdown = 0
 	strip_delay = 130
 	resistance_flags = ACID_PROOF
@@ -245,7 +245,7 @@ Contains:
 	icon_state = "hardsuit0-ert_commander-alert"
 	item_state = "hardsuit0-ert_commander-alert"
 	hardsuit_type = "ert_commander-alert"
-	armor = list("melee" = 80, "bullet" = 80, "laser" = 80, "energy" = 80, "bomb" = 80, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100, "wound" = 50)
+	armor = list("melee" = 70, "bullet" = 55, "laser" = 50, "energy" = 50, "bomb" = 65, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100, "wound" = 27)
 	brightness_on = 8
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
@@ -256,7 +256,7 @@ Contains:
 	icon_state = "ert_command-alert"
 	item_state = "ert_command-alert"
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/ert/alert
-	armor = list("melee" = 80, "bullet" = 80, "laser" = 80, "energy" = 80, "bomb" = 80, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100, "wound" = 27)
+	armor = list("melee" = 70, "bullet" = 55, "laser" = 50, "energy" = 50, "bomb" = 65, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100, "wound" = 27)
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_SNEK_TAURIC

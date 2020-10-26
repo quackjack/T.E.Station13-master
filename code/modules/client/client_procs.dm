@@ -1,7 +1,7 @@
 	////////////
 	//SECURITY//
 	////////////
-#define UPLOAD_LIMIT		52428800	//Restricts client uploads to the server to 5MB //skyrat-edit
+#define UPLOAD_LIMIT		5242880	//Restricts client uploads to the server to 5MB //skyrat-edit
 
 GLOBAL_LIST_INIT(blacklisted_builds, list(
 	"1407" = "bug preventing client display overrides from working leads to clients being able to see things/mobs they shouldn't be able to see",

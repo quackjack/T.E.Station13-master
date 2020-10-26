@@ -17,7 +17,7 @@
 	friendly_verb_continuous = "wails at"
 	friendly_verb_simple = "wail at"
 	speak_emote = list("bellows")
-	speed = 4
+	speed = 3
 	maxHealth = 300
 	health = 300
 	harm_intent_damage = 0

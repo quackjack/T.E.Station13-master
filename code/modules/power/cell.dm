@@ -12,7 +12,7 @@
 	throw_range = 5
 	w_class = WEIGHT_CLASS_SMALL
 	var/charge = 0	// note %age conveted to actual charge in New
-	var/maxcharge = 1500
+	var/maxcharge = 1000
 	custom_materials = list(/datum/material/iron=700, /datum/material/glass=50)
 	var/start_charged = TRUE
 	grind_results = list(/datum/reagent/lithium = 15, /datum/reagent/iron = 5, /datum/reagent/silicon = 5)
@@ -180,7 +180,7 @@
 /obj/item/stock_parts/cell/upgraded
 	name = "upgraded power cell"
 	desc = "A power cell with a slightly higher capacity than normal!"
-	maxcharge = 3000
+	maxcharge = 2500
 	custom_materials = list(/datum/material/glass=50)
 	chargerate = 1000
 
@@ -201,23 +201,23 @@
 	name = "laser carbine power supply"
 	maxcharge = 1500			//20 laser shots.
 
-/obj/item/stock_parts/cell/pulse //400 pulse shots
+/obj/item/stock_parts/cell/pulse //200 pulse shots
 	name = "pulse rifle power cell"
-	maxcharge = 80000
+	maxcharge = 40000
 	chargerate = 1500
 
-/obj/item/stock_parts/cell/pulse/carbine //50 pulse shots
+/obj/item/stock_parts/cell/pulse/carbine //25 pulse shots
 	name = "pulse carbine power cell"
-	maxcharge = 10000
+	maxcharge = 5000
 
-/obj/item/stock_parts/cell/pulse/pistol //20 pulse shots
+/obj/item/stock_parts/cell/pulse/pistol //10 pulse shots
 	name = "pulse pistol power cell"
-	maxcharge = 4000
+	maxcharge = 2000
 
 /obj/item/stock_parts/cell/high
 	name = "high-capacity power cell"
 	icon_state = "hcell"
-	maxcharge = 15000
+	maxcharge = 10000
 	custom_materials = list(/datum/material/glass=60)
 	chargerate = 1500
 
@@ -225,7 +225,7 @@
 	name = "high-capacity power cell+"
 	desc = "Where did these come from?"
 	icon_state = "h+cell"
-	maxcharge = 20000
+	maxcharge = 15000
 	chargerate = 2250
 	rating = 2
 
@@ -235,7 +235,7 @@
 /obj/item/stock_parts/cell/super
 	name = "super-capacity power cell"
 	icon_state = "scell"
-	maxcharge = 30000
+	maxcharge = 20000
 	custom_materials = list(/datum/material/glass=300)
 	chargerate = 2000
 	rating = 3
@@ -246,7 +246,7 @@
 /obj/item/stock_parts/cell/hyper
 	name = "hyper-capacity power cell"
 	icon_state = "hpcell"
-	maxcharge = 40000
+	maxcharge = 30000
 	custom_materials = list(/datum/material/glass=400)
 	chargerate = 3000
 	rating = 4
@@ -258,7 +258,7 @@
 	name = "bluespace power cell"
 	desc = "A rechargeable transdimensional power cell."
 	icon_state = "bscell"
-	maxcharge = 60000
+	maxcharge = 40000
 	custom_materials = list(/datum/material/glass=600)
 	chargerate = 4000
 	rating = 5
@@ -365,16 +365,16 @@
 
 //found inside the inducers ordered from cargo.
 /obj/item/stock_parts/cell/inducer_supply
-	maxcharge = 10000
+	maxcharge = 5000
 
 /obj/item/stock_parts/cell/magnetic
 	name = "magrifle power supply"
-	maxcharge = 24000
-	chargerate = 1200
+	maxcharge = 12000
+	chargerate = 600
 
 /obj/item/stock_parts/cell/magnetic/pistol
 	name = "magpistol power supply"
-	maxcharge = 12000
+	maxcharge = 6000
 
 /obj/item/stock_parts/cell/toymagburst
 	name = "toy mag burst rifle power supply"

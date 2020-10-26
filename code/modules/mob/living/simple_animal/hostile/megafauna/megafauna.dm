@@ -1,8 +1,8 @@
 /mob/living/simple_animal/hostile/megafauna
 	name = "boss of this gym"
 	desc = "Attack the weak point for massive damage."
-	health = 600
-	maxHealth = 600
+	health = 1000
+	maxHealth = 1000
 	a_intent = INTENT_HARM
 	sentience_type = SENTIENCE_BOSS
 	environment_smash = ENVIRONMENT_SMASH_RWALLS

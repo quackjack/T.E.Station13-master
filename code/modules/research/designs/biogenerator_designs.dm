@@ -21,6 +21,7 @@
 	make_reagents = list(/datum/reagent/consumable/cream = 10)
 	category = list("initial","Food")
 
+//Jessie Added this
 /datum/design/bbqsauce
 	name = "5u Barbecue sauce"
 	id = "bbq_sauce"
@@ -37,6 +38,7 @@
 	make_reagents = list(/datum/reagent/consumable/blackpepper = 10)
 	category = list("initial","Food")
 
+//Jessie Added this
 /datum/design/flour_sack
 	name = "Flour Sack"
 	id = "flour_sack"
@@ -61,6 +63,7 @@
 	build_path = /obj/item/reagent_containers/food/snacks/cube/monkey
 	category = list("initial", "Food")
 
+//Jessie Added this
 /datum/design/egg_synth
 	name = "Synthesized Egg"
 	id = "egg_snack"
@@ -77,6 +80,7 @@
 	build_path = /obj/item/reagent_containers/food/snacks/meat/slab/synthmeat
 	category = list("initial", "Food")
 
+//Jessie Added this
 /datum/design/sfish
 	name = "Biomass Fish Slab"
 	id = "sfish"
@@ -85,6 +89,7 @@
 	build_path = /obj/item/reagent_containers/food/snacks/carpmeat/imitation
 	category = list("initial", "Food")
 
+//Jessie Added this
 /datum/design/seaweedz
 	name = "Biomass Sea Weed"
 	id = "sea_weed"
@@ -93,6 +98,7 @@
 	build_path = /obj/item/reagent_containers/food/snacks/sea_weed
 	category = list("initial", "Food")
 
+//Jessie Added this
 /datum/design/ricebag
 	name = "Biomass Rice Box"
 	id = "Ricebox"
@@ -101,6 +107,7 @@
 	build_path = /obj/item/reagent_containers/food/condiment/rice
 	category = list("initial", "Food")
 
+//Jessie Added this
 /datum/design/fishketchup
 	name = "5u Soy Sauce"
 	id = "soy_sauce"

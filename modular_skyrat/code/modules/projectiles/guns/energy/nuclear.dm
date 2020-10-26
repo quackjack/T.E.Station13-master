@@ -2,7 +2,7 @@
 	name = "energy revolver"
 	desc = "An advanced energy revolver with the capacity to shoot both electrodes and lasers."
 	force = 7
-	ammo_type = list(/obj/item/ammo_casing/energy/disabler, /obj/item/ammo_casing/energy/electrode/blueshield, /obj/item/ammo_casing/energy/laser)
+	ammo_type = list(/obj/item/ammo_casing/energy/electrode/blueshield, /obj/item/ammo_casing/energy/laser)
 	ammo_x_offset = 1
 	charge_sections = 4
 	fire_delay = 4

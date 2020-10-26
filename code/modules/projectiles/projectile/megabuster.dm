@@ -2,7 +2,7 @@
 	name = "buster shot"
 	icon_state = "buster"
 	nodamage = 0
-	damage = 40
+	damage = 20
 	damage_type = BURN
 	hitsound = 'sound/weapons/sear.ogg'
 	hitsound_wall = 'sound/weapons/effects/searwall.ogg'

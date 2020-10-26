@@ -2,21 +2,21 @@
 
 /obj/item/projectile/bullet/n762
 	name = "7.62x38mmR bullet"
-	damage = 60     //Skyrat edit: Weaker than .357 but still very effective
+	damage = 50     //Skyrat edit: Weaker than .357 but still very effective
 	wound_bonus = -70
 
 // .50AE (Desert Eagle)
 
 /obj/item/projectile/bullet/a50AE
 	name = ".50AE bullet"
-	damage = 75
-	armour_penetration = 15     //Skyrat edit: It's .50 AE, seriously? Why did it have no AP?
+	damage = 65
+	armour_penetration = 30     //Skyrat edit: It's .50 AE, seriously? Why did it have no AP?
 
 // .38 (Detective's Gun)
 
 /obj/item/projectile/bullet/c38
 	name = ".38 bullet"
-	damage = 35
+	damage = 25
 	ricochets_max = 2
 	ricochet_chance = 50
 	ricochet_auto_aim_angle = 10
@@ -41,7 +41,7 @@
 /obj/item/projectile/bullet/c38/match/bouncy
 	name = ".38 Rubber bullet"
 	damage = 10
-	stamina = 40
+	stamina = 30
 	armour_penetration = -30
 	ricochets_max = 6
 	ricochet_incidence_leeway = 70
@@ -52,7 +52,7 @@
 // premium .38 ammo from cargo, weak against armor, lower base damage, but excellent at embedding and causing slice wounds at close range
 /obj/item/projectile/bullet/c38/dumdum
 	name = ".38 DumDum bullet"
-	damage = 20
+	damage = 15
 	armour_penetration = -30
 	ricochets_max = 0
 	sharpness = SHARP_EDGED
@@ -70,7 +70,7 @@
 
 /obj/item/projectile/bullet/c38/trac
 	name = ".38 TRAC bullet"
-	damage = 5
+	damage = 10
 	ricochets_max = 0
 
 /obj/item/projectile/bullet/c38/trac/on_hit(atom/target, blocked = FALSE)
@@ -120,8 +120,8 @@
 	name = ".357 armor-piercing bullet"
 	damage = 45
 	armour_penetration = 45
-
-
+  
+  
 // admin only really, for ocelot memes
 /obj/item/projectile/bullet/a357/match
 	name = ".357 match bullet"

@@ -1,46 +1,46 @@
 // C3D (Borgs)
 
 /obj/item/projectile/bullet/c3d
-	damage = 30
+	damage = 20
 
 // Mech LMG
 
 /obj/item/projectile/bullet/lmg
-	damage = 30
+	damage = 20
 
 // Mech FNX-99
 
 /obj/item/projectile/bullet/incendiary/fnx99
-	damage = 30
+	damage = 20
 
 // Turrets
 
 /obj/item/projectile/bullet/manned_turret
-	damage = 30
+	damage = 20
 
 /obj/item/projectile/bullet/syndicate_turret
-	damage = 30
+	damage = 20
 
 // 1.95x129mm (SAW)
 
 /obj/item/projectile/bullet/mm195x129
 	name = "1.95x129mm bullet"
-	damage = 45 //Skyrat Edit: LMGs should be for suppressive fire, please no 3 shot crits on the 60 round gun.
+	damage = 35 //Skyrat Edit: LMGs should be for suppressive fire, please no 3 shot crits on the 60 round gun.
 	armour_penetration = 5
 
 /obj/item/projectile/bullet/mm195x129_ap
 	name = "1.95x129mm armor-piercing bullet"
-	damage = 20       //Skyrat Edit: Less damage, but surpasses five points above the bulletproof gear.
+	damage = 30       //Skyrat Edit: Less damage, but surpasses five points above the bulletproof gear.
 	armour_penetration = 65
 
 /obj/item/projectile/bullet/mm195x129_hp
 	name = "1.95x129mm hollow-point bullet"
-	damage = 50   //Skyrat Edit: 3 shot crits, but bulletproof gear completely negates it.
+	damage = 40   //Skyrat Edit: 3 shot crits, but bulletproof gear completely negates it.
 	armour_penetration = -60
 
 /obj/item/projectile/bullet/incendiary/mm195x129
 	name = "1.95x129mm incendiary bullet"
-	damage = 20   //Skyrat Edit: 5 less damage, but double the firestacks. Burn baby burn!
+	damage = 15   //Skyrat Edit: 5 less damage, but double the firestacks. Burn baby burn!
 	fire_stacks = 6
 
 //skyrat edit

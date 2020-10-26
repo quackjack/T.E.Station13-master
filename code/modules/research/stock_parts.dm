@@ -256,7 +256,7 @@ If you create T5+ please take a pass at gene_modder.dm [L40]. Max_values MUST fi
 	name = "femto-manipulator"
 	desc = "A tiny little manipulator used in the construction of certain devices."
 	icon_state = "femto_mani"
-	rating = 5
+	rating = 4
 	custom_materials = list(/datum/material/iron=30)
 
 /obj/item/stock_parts/micro_laser/quadultra
@@ -270,7 +270,7 @@ If you create T5+ please take a pass at gene_modder.dm [L40]. Max_values MUST fi
 	name = "bluespace matter bin"
 	desc = "A container designed to hold compressed matter awaiting reconstruction."
 	icon_state = "bluespace_matter_bin"
-	rating = 5
+	rating = 4
 	custom_materials = list(/datum/material/iron=80)
 
 // Subspace stock parts

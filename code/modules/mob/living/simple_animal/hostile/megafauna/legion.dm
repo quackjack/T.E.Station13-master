@@ -19,8 +19,8 @@ Difficulty: Medium
 /mob/living/simple_animal/hostile/megafauna/legion
 	name = "Legion"
 	threat = 30
-	health = 400
-	maxHealth = 400
+	health = 800
+	maxHealth = 800
 	spacewalk = TRUE
 	icon_state = "legion"
 	icon_living = "legion"
@@ -33,7 +33,7 @@ Difficulty: Medium
 	armour_penetration = 50
 	melee_damage_lower = 25
 	melee_damage_upper = 25
-	speed = 2
+	speed = 1
 	move_to_delay = 2
 	ranged = 1
 	del_on_death = 1

@@ -26,6 +26,7 @@
 	build_path = /obj/item/reagent_containers/food/condiment/milk
 	category = list("initial","Food")
 
+//Jessie Added this
 /datum/design/bbqsauceprisoner
 	name = "5u Barbecue sauce"
 	id = "bbq_sauce"
@@ -83,6 +84,7 @@
 	build_path = /obj/item/reagent_containers/food/snacks/cube/monkey
 	category = list("initial", "Food")
 
+//Jessie Added this
 /datum/design/egg_synthprison
 	name = "Synthesized Egg"
 	id = "Egg_snackprisoner"
@@ -99,6 +101,7 @@
 	build_path = /obj/item/reagent_containers/food/snacks/meat/slab/synthmeat
 	category = list("initial", "Food")
 
+//Jessie Added this
 /datum/design/sfishprisoner
 	name = "Biomass Fish Slab"
 	id = "sfishprisoner"
@@ -107,6 +110,7 @@
 	build_path = /obj/item/reagent_containers/food/snacks/carpmeat/imitation
 	category = list("initial", "Food")
 
+//Jessie Added this
 /datum/design/seaweedzprisoner
 	name = "Biomass Sea Weed"
 	id = "sea_weedprisoner"
@@ -242,6 +246,3 @@
 	materials = list(/datum/material/biomass = 300)
 	build_path = /obj/item/clothing/head/rice_hat
 	category = list("initial","Organic Materials")
-
-
-
