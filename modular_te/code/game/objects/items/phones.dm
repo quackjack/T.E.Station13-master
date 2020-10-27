@@ -325,10 +325,11 @@ The phone will be detected by this verb if it's carried by a mob or sitting on a
 	broken = 1
 	labeled = 0
 
+//Cosmetic edit of a phone
 /obj/item/phone/cellphone
 	name = "cellphone"
 	desc = "A compact cellphone for making calls."
-	icon =  'modular_lumos/icons/obj/cellphone.dmi'
+	icon =  'modular_te/icons/obj/cellphone.dmi'
 	icon_state = "cellphone"
 
 /obj/item/phone/cellphone/broken
